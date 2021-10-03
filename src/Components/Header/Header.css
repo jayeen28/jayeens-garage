@@ -1,0 +1,28 @@
+.jg-nav{
+    background-color: #0A0A0A;
+}
+.jg-nav-links {
+    margin-left: auto;
+}
+.jg-nav-links a {
+    text-decoration: none;
+    padding: 8px 19px;
+    color: #FFBD4F;
+    font-weight: 600;
+    letter-spacing: .5px;
+    font-size: 16px;
+}
+span.jg-bname {
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+button.jg-login-btn {
+    margin-left: 10px;
+    padding: 5px 22px;
+    border: 1px solid #FDBD4B;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+}

@@ -1,0 +1,19 @@
+.footer-section{
+    background-color: #CB3522;
+    padding: 20px 0px 20px 0px;
+    color: white;
+    letter-spacing: 0.5px;
+}
+.f-note {
+    font-weight: 400;
+}
+.footer-icons {
+    display: grid;
+    grid-template-columns: repeat(4,30px);
+    gap: 35px;
+    margin: auto;
+    justify-content: center;
+    font-size: 25px;
+    padding: 50px 0 20px 0;
+    color: white;
+}
