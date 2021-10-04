@@ -24,7 +24,7 @@ function App() {
         <Header></Header>
         <Switch>
           <Route exact path='/'>
-            <Home services={services}></Home>
+            <Home services={services.slice(0, 4)}></Home>
           </Route>
           <Route path='/home'>
             <Home services={services.slice(0, 4)}></Home>
