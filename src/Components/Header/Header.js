@@ -11,7 +11,7 @@ const Header = () => {
     return (
         <header className="header-section">
             <Navbar className="jg-nav">
-                <Container>
+                <div className="container">
                     <Navbar.Brand href="/home">
                         {/* nav bar brand */}
                         <img
@@ -33,7 +33,7 @@ const Header = () => {
                         <NavLink className="jg-nav-link" to="/contact">Contact us</NavLink>
                         <Button className="jg-login-btn"><FontAwesomeIcon icon={faSignInAlt} /> Sign In</Button>
                     </Nav>
-                </Container>
+                </div>
             </Navbar>
         </header>
     );
