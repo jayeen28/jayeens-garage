@@ -1,0 +1,41 @@
+.banner-section{
+    background-image: url('../../images/banner-img.jpg');
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    color: white;
+}
+.banner-bg-overlay {
+    height: 500px;
+    background-color: #24242480;
+}
+.banner-title.container h1 {
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+}
+.banner-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 21px;
+}
+.banner-contents {
+    padding-top: 150px;
+}
+.banner-button {
+    font-family: 'Poppins';
+    padding: 5px 25px;
+    border: 1px solid #CB2410;
+    border-radius: 10px;
+    background-color: #cb2410;
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.top-4-service-boxes {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+}

@@ -8,20 +8,27 @@ import Services from './Components/Services/Services';
 import About from './Components/About/About';
 import Contact from './Components/Contact/Contact';
 import Error from './Components/Error/Error';
+import { useEffect, useState } from 'react';
 function App() {
+  const [services, setservices] = useState([]);
+  useEffect(() => {
+    fetch('https://raw.githubusercontent.com/Jayeen29/jayeens-garage-api/main/jayeens-garage-api.json')
+      .then(res => res.json())
+      .then(data => setservices(data))
+  }, [])
   return (
     <div className="App">
       <Router>
         <Header></Header>
         <Switch>
           <Route exact path='/'>
-            <Home></Home>
+            <Home services={services}></Home>
           </Route>
           <Route path='/home'>
-            <Home></Home>
+            <Home services={services.slice(0, 4)}></Home>
           </Route>
           <Route path='/services'>
-            <Services></Services>
+            <Services services={services}></Services>
           </Route>
           <Route path='/about'>
             <About></About>

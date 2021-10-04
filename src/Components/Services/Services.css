@@ -1,0 +1,14 @@
+.services-boxes {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 45px;
+}
+.services-head h1 {
+    padding-bottom: 20px;
+}
+
+.services-section {
+    color: white;
+    background-color: #070707;
+    padding: 5% 0;
+}
