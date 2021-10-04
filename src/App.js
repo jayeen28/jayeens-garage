@@ -9,8 +9,10 @@ import About from './Components/About/About';
 import Contact from './Components/Contact/Contact';
 import Error from './Components/Error/Error';
 import { useEffect, useState } from 'react';
+
 function App() {
   const [services, setservices] = useState([]);
+  //Load data of services
   useEffect(() => {
     fetch('https://raw.githubusercontent.com/Jayeen29/jayeens-garage-api/main/jayeens-garage-api.json')
       .then(res => res.json())

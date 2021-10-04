@@ -5,6 +5,7 @@ import Service from '../Service/Service';
 const Services = (props) => {
     const { services } = props;
     return (
+        // services section
         <div className="services-section">
             <div className="container">
                 <div className="services-head">

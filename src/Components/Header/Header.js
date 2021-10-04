@@ -9,10 +9,11 @@ import { faSignInAlt } from '@fortawesome/free-solid-svg-icons';
 
 const Header = () => {
     return (
-        <div className="header-section">
+        <header className="header-section">
             <Navbar className="jg-nav">
                 <Container>
                     <Navbar.Brand href="/home">
+                        {/* nav bar brand */}
                         <img
                             src={logo}
                             width="100"
@@ -24,6 +25,7 @@ const Header = () => {
                             <span style={{ color: '#FDBD4E' }}>Jayeen<span style={{ color: '#FFFFFF' }}>'</span>s</span> <span style={{ color: '#FFFFFF' }}>Garage</span>
                         </span>
                     </Navbar.Brand>
+                    {/*navbar links*/}
                     <Nav className="jg-nav-links">
                         <NavLink className="jg-nav-link" to="/home">Home</NavLink>
                         <NavLink className="jg-nav-link" to="/services">Services</NavLink>
@@ -33,7 +35,7 @@ const Header = () => {
                     </Nav>
                 </Container>
             </Navbar>
-        </div>
+        </header>
     );
 };
 

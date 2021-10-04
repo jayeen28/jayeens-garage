@@ -7,6 +7,7 @@ const Home = (props) => {
     const { services } = props;
     return (
         <main>
+            {/*banner section*/}
             <div className="banner-section">
                 <div className="banner-bg-overlay">
                     <div className="banner-contents">
@@ -20,6 +21,7 @@ const Home = (props) => {
                     </div>
                 </div>
             </div>
+            {/*top 4 services section */}
             <div className="top-4-services-section">
                 <div className="container">
                     <div className="top-service-head">

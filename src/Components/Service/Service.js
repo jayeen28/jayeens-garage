@@ -3,8 +3,10 @@ import './Service.css'
 import { Card, ListGroup, ListGroupItem } from 'react-bootstrap';
 
 const Service = (props) => {
+    //this component is used both in home page top 4 sevices section and also in sevices page
     const { img, title, price, description } = props;
     return (
+        // single service card component
         <Card style={{ width: '100%' }} className="service-box">
             <Card.Img variant="top" className="img-fluid" src={img} />
             <Card.Body className="box-body">
@@ -15,7 +17,6 @@ const Service = (props) => {
                 <ListGroup className="list-group-flush">
                     <ListGroupItem>Price: {price}$</ListGroupItem>
                 </ListGroup>
-                {/* <Button variant="primary">Go somewhere</Button> */}
             </Card.Body>
         </Card>
     );
