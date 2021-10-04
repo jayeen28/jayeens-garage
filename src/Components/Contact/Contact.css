@@ -1,0 +1,31 @@
+.contact-section{
+    background-color: #0B0B0B;
+    color: white;
+}
+.form-control {
+    background-color: #000000;
+    border: 1px solid #CB3522;
+    box-shadow: 0px 0px 6px 0px rgb(251 28 0 / 77%);
+}
+.contact-contents {
+    display: flex;
+    padding: 68px 0px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.contact-right{
+    padding:0px 90px 0px 90px;
+}
+.form-control::placeholder {
+    color: #878787;
+}   
+.submit-btn{
+    font-family: 'Poppins';
+    padding: 5px 25px;
+    border: 1px solid #CB2410;
+    border-radius: 10px;
+    background-color: #cb2410;
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}

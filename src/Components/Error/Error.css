@@ -1,0 +1,23 @@
+#notfound {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+    background-color: #0B0B0B;
+    color: white;
+}
+.notfound-404 h1 {
+    font-size: 125px;
+}
+  
+  .notfound a{
+    font-family: 'Poppins';
+    padding: 5px 25px;
+    border: 1px solid #CB2410;
+    border-radius: 10px;
+    background-color: #cb2410;
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+  }

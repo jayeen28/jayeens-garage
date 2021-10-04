@@ -16,10 +16,10 @@ const Footer = () => {
                 <p>This is an assignment project for Programming Hero</p>
             </div>
             <div className="footer-icons">
-                <FontAwesomeIcon icon={faFacebookF} />
-                <FontAwesomeIcon icon={faTwitter} />
-                <FontAwesomeIcon icon={faInstagram} />
-                <FontAwesomeIcon icon={faEnvelope} />
+                <a href="https://facebook.com/jayeenbinalam" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faFacebookF} /></a>
+                <a href="https://twitter.com/jayeen29" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faTwitter} /></a>
+                <a href="https://www.instagram.com/jay__een/" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faInstagram} /></a>
+                <a href="mailto://jayeenb@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
             </div>
             <div className="f-note-2">
                 All rights reserved by MD. Jayeen Bin Alam

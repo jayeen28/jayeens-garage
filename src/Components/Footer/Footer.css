@@ -13,6 +13,9 @@
     gap: 35px;
     margin: auto;
     justify-content: center;
+
+}
+.footer-icons a{
     font-size: 25px;
     padding: 50px 0 20px 0;
     color: white;
