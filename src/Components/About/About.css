@@ -1,0 +1,30 @@
+.about-section{
+    background-color: #0B0B0B;
+    color: white;
+}
+.abt-head div {
+    width: 50%;
+}
+.abt-head {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+.abt-head-img img {
+    width: 100%;
+}
+.team-boxes {
+    padding-top: 2%;
+    padding-bottom: 8%;
+    display: flex;
+    gap: 50px;
+}
+.team-box {
+    background-color: #CB3522;
+    text-align: center;
+    box-shadow: 0px 0px 6px 0px rgb(251 28 0 / 77%);
+}
+.team-box img {
+    width: 100%;
+}

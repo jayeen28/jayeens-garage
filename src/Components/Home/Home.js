@@ -14,7 +14,7 @@ const Home = (props) => {
                             <h1>Learn Car Modification <br /> with us</h1>
                         </div>
                         <div className="banner-buttons">
-                            <Button className="banner-button">Our recent courses</Button>
+                            <NavLink to="/services"><Button className="banner-button">Our recent courses</Button></NavLink>
                             <NavLink to="/contact" className="banner-button">Contact Us</NavLink>
                         </div>
                     </div>
@@ -27,7 +27,7 @@ const Home = (props) => {
                     </div>
                     <div className="top-4-service-boxes">
                         {
-                            services.map(service => <Service key={service.id} img={service.img} title={service.title} price={service.price}></Service>)
+                            services.map(service => <Service key={service.id} img={service.img} title={service.title} description={service.description.substring(0, 90) + ' ...'} price={service.price}></Service>)
                         }
                     </div>
                 </div>

@@ -12,7 +12,7 @@ const Services = (props) => {
                 </div>
                 <div className="services-boxes">
                     {
-                        services.map(service => <Service key={service.id} img={service.img} title={service.title} price={service.price}></Service>)
+                        services.map(service => <Service key={service.id} img={service.img} title={service.title} price={service.price} description={service.description}></Service>)
                     }
                 </div>
             </div>
