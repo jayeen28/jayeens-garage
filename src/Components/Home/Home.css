@@ -37,6 +37,9 @@
     text-decoration: none;
     text-transform: capitalize;
 }
+a.banner-button:hover {
+    color: white;
+}
 .top-4-service-boxes {
     display: grid;
     grid-template-columns: repeat(4,1fr);
