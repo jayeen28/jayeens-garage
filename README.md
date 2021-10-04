@@ -1,6 +1,6 @@
 # Jayeen's Garage
 ## Welcome to Jayeen's garage websites git repository.
-### Link of the live site [https://jayeens-garage.netlify.app](https://jayeens-garage.netlify.app).
+### Link of the live site [https://jayeens-garage.netlify.app](https://jayeens-garage.netlify.app)
 
 ## What this site do
 - This is an car modification learning website.
