@@ -12,7 +12,7 @@ const Header = () => {
         <header className="header-section">
             <Navbar className="jg-nav">
                 <div className="container">
-                    <NavLink to="/home">
+                    <NavLink to="/home" className="brand-name">
                         <Navbar.Brand>
                             {/* nav bar brand */}
                             <img
