@@ -9,6 +9,7 @@ import About from './Components/About/About';
 import Contact from './Components/Contact/Contact';
 import Error from './Components/Error/Error';
 import { useEffect, useState } from 'react';
+import Signin from './Components/Signin/Signin';
 
 function App() {
   const [services, setservices] = useState([]);
@@ -37,6 +38,9 @@ function App() {
           </Route>
           <Route path='/contact'>
             <Contact></Contact>
+          </Route>
+          <Route>
+            <Signin></Signin>
           </Route>
           <Route path='*'>
             <Error></Error>
