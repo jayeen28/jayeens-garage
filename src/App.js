@@ -15,7 +15,7 @@ function App() {
   const [services, setservices] = useState([]);
   //Load data of services
   useEffect(() => {
-    fetch('https://raw.githubusercontent.com/Jayeen29/jayeens-garage-api/main/jayeens-garage-api.json')
+    fetch('https://raw.githubusercontent.com/Jayeen29/jayeens-garage/main/jayeens-garage-api/jayeens-garage-api.json')
       .then(res => res.json())
       .then(data => setservices(data))
   }, [])

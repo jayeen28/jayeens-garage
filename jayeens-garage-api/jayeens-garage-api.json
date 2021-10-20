@@ -1,56 +1,56 @@
 [
     {
         "id": 1,
-        "img": "https://raw.githubusercontent.com/Jayeen29/jayeens-garage-api/main/images/img-2.jpg",
+        "img": "https://raw.githubusercontent.com/Jayeen29/jayeens-garage-api/main/images/img-1.jpg",
         "title": "Learn car servicing",
         "description": "The best thing about modern cars is that they are equipped with sophisticated sensors and warning systems which alerts you when something is amiss. Thus, it is important to understand what they denote and what is the meaning of different color lights. Usually, when you turn the ignition key to ON without starting the engine; you see all the lights turn on briefly. This procedure is called bulb check. In case, a particular light is not turning on; you must check its meaning in the manual and take steps accordingly.",
         "price": 200
     },
     {
         "id": 2,
-        "img": "https://raw.githubusercontent.com/Jayeen29/jayeens-garage-api/main/images/img-7.jpg",
+        "img": "https://raw.githubusercontent.com/Jayeen29/jayeens-garage-api/main/images/img-2.jpg",
         "title": "Learn engine modification",
         "description": "Learning about cars...Read. Go to your local wrecking yard, just to check shit out. There is nowhere else I can think of that will give you an up-close-and-personal, hands on, real life...inside and out view of modern vehicles, like a do-it-yourself auto dismantler's yard. I would read about a certain type of drivetrain, or engine configuration, a certain make (especially if it is unique in design from most other vehicles...for example; I once got an Alfa Romeo Milano in a trade",
         "price": 400
     },
     {
         "id": 3,
-        "img": "https://raw.githubusercontent.com/Jayeen29/jayeens-garage-api/main/images/img-4.jpg",
+        "img": "https://raw.githubusercontent.com/Jayeen29/jayeens-garage-api/main/images/img-3.jpg",
         "title": "Learn custom interior setup",
         "description": "We’re known as the best upholstery trainer since decade.Auto upholstery classes will make you enable to install new headliners and seat covers along with working with other sections of car interiors. The text and video material are designed so plainly to make you understand easily.Get free online upholstery classes and lessons by MecaUphosltery.",
         "price": 200
     },
     {
         "id": 4,
-        "img": "https://raw.githubusercontent.com/Jayeen29/jayeens-garage-api/main/images/img-3.jpg",
+        "img": "https://raw.githubusercontent.com/Jayeen29/jayeens-garage-api/main/images/img-4.jpg",
         "title": "Learn car painting",
         "description": "Auto body painters, sometimes called transportation equipment painters, are responsible for painting vehicles like cars, buses, and trucks. This might involve painting intricate designs or simply reapplying paint to cover up scratches and other damage.To become an auto body painter, you'll need to meet the basic requirements before you are employed.",
         "price": 400
     },
     {
         "id": 5,
-        "img": "https://raw.githubusercontent.com/Jayeen29/jayeens-garage-api/main/images/img-6.jpg",
+        "img": "https://raw.githubusercontent.com/Jayeen29/jayeens-garage-api/main/images/img-5.jpg",
         "title": "Learn building custom rims",
         "description": "Few things will dress up a car as much as a nice set of custom rims. People spend big money on a good set of rims, and are nearly always pleased with the results and feel that the purchase was worth every last cent. The trouble is that even if you buy custom rims to make your car look different than the factory model, there are still hundreds of sets of the exact same rims sold around the country. But you don't have to rely only on what you can find in auto shops.",
         "price": 150
     },
     {
         "id": 6,
-        "img": "https://raw.githubusercontent.com/Jayeen29/jayeens-garage-api/main/images/img-8.jpg",
+        "img": "https://raw.githubusercontent.com/Jayeen29/jayeens-garage-api/main/images/img-6.jpg",
         "title": "Learn installing custom sound system",
         "description": "You can even replace components one at a time, as your budget permits, and eventually, you'll have a completely custom car sound system. ... Component speakers provide even better sound, but that's a complicated upgrade that's better paired with a new car stereo.",
         "price": 80
     },
     {
         "id": 7,
-        "img": "https://raw.githubusercontent.com/Jayeen29/jayeens-garage-api/main/images/img-1.jpg",
+        "img": "https://raw.githubusercontent.com/Jayeen29/jayeens-garage-api/main/images/img-7.jpg",
         "title": "Learn ac servicing",
         "description": "Turn on the unit and let only the fan run for a few minutes to dry it out. Then turn on the cooling mode and let it run for at least 15 minutes. It should be good to go after that. Note: If AC refrigerant has leaked out due to a break in any of the cooling coil joints, then you will need to call for professional help.",
         "price": 500
     },
     {
         "id": 8,
-        "img": "https://raw.githubusercontent.com/Jayeen29/jayeens-garage-api/main/images/img-5.jpg",
+        "img": "https://raw.githubusercontent.com/Jayeen29/jayeens-garage-api/main/images/img-8.jpg",
         "title": "Learn custom lighting",
         "description": "The feature utilizes interior lights mounted around the cabin to enhance the design and maybe even soothing driver and passenger. In addition to the foot wells, some ambient lighting systems often illuminate the door and dash trim, cupholders, climate control vents, and speaker surrounds.",
         "price": 100
